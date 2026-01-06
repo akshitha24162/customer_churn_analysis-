@@ -1,105 +1,111 @@
-📊 Customer Churn Analysis
+📊 Telecom Customer Churn Analysis
+🔍 Why This Project?
 
-📌 Project Overview
+Customer churn is one of the biggest challenges in the telecom industry. Losing customers not only reduces revenue but also increases acquisition costs. Businesses often know that customers are leaving — but not why.
 
-Customer churn is a critical business problem where customers stop using a company’s services. This project focuses on analyzing customer behavior to identify churn patterns and key factors influencing customer retention using Python, SQL, and Power BI.
+This project focuses on understanding customer behavior, identifying why customers churn, and providing data-driven insights that can help telecom companies retain customers more effectively.
 
-🎯 Business Objective
+🎯 What I Tried to Solve
 
-Identify customers who are likely to churn
+1.Which customers are most likely to churn?
 
-Analyze usage, service, and plan-related factors affecting churn
+2.What behaviors and services increase churn risk?
 
-Provide actionable insights to reduce customer attrition
+3.How can businesses identify high-risk customers early?
 
-🗂 Dataset
+4.What insights can help reduce customer attrition?
+
+🗂 Dataset Overview
 
 Source: BigML Customer Churn Dataset
 
-Records: Telecom customer data
+Industry: Telecommunications
 
-Key Features:
+Data Type: Customer-level behavioral and service data
 
-Account Length
+Key Features Analyzed
 
-Usage Minutes (Day, Evening, Night)
+Account length and tenure
 
-Customer Service Calls
+Day, evening, and night usage minutes
 
-International Plan
+Customer service calls
 
-Voice Mail Plan
+International and voice mail plans
 
-Churn (Target Variable)
+Churn (Yes/No – Target Variable)
 
-🛠 Tools & Technologies
+🛠 Tools & Technologies Used
 
-Python: Pandas, NumPy, Matplotlib, Seaborn
+Python: Data cleaning, EDA, feature analysis
 
-SQL: PostgreSQL
+SQL (PostgreSQL): Business-focused churn queries
 
-BI Tool: Power BI
+Power BI: Interactive dashboards and insights
 
-IDE: Jupyter Notebook
+Jupyter Notebook: Analysis and experimentation
 
-Version Control: Git & GitHub
+Git & GitHub: Version control and documentation
 
-🔍 Project Workflow
+🔄 End-to-End Workflow
+1️⃣ Data Cleaning & Preparation (Python)
 
-Data Loading & Cleaning (Python)
+Handled missing and inconsistent values
 
-Handled missing values
+Renamed and standardized columns
 
-Renamed columns
+Converted data types for accurate analysis
 
-Converted data types
+2️⃣ Exploratory Data Analysis (EDA)
 
-Exploratory Data Analysis (EDA)
+Analyzed churn distribution across customers
 
-Churn distribution analysis
+Compared usage patterns of churned vs retained customers
 
-Usage patterns comparison
+Studied the impact of customer service calls
 
-Service calls impact on churn
+Evaluated churn behavior across different plans
 
-SQL Analysis
+3️⃣ SQL-Based Business Analysis
 
-Customer segmentation
+Calculated churn rates across customer segments
 
-Churn rate calculations
+Identified high-risk customers using behavior patterns
 
-High-risk customer identification
+Performed state-wise churn analysis
 
-State-wise churn analysis
+Created queries aligned with real business questions
 
-Power BI Dashboard
+4️⃣ Power BI Dashboard
 
-KPI cards (Churn Rate, Total Customers)
+Built interactive KPI cards (Total Customers, Churn Rate)
 
-Usage behavior analysis
+Visualized churn trends by plans, usage, and geography
 
-Plan-based churn insights
+Highlighted high-risk customer segments
 
-High-risk customer table
+Designed dashboards for non-technical stakeholders
 
-📈 Power BI Dashboard Highlights
+📈 Dashboard Highlights
 
-Overall churn rate visualization
+Overall churn rate at a glance
 
-Churn by state and customer plans
+Churn comparison by plans and customer behavior
 
-Service call impact on churn
+Clear visualization of service call impact
 
-High-risk customer identification
+High-risk customer identification table
 
-💡 Key Insights
+💡 Key Business Insights
 
-Customers with high service calls are more likely to churn
+Customers with frequent customer service calls are much more likely to churn
 
-International plan users show higher churn rate
+International plan users show higher churn rates
 
-Long-tenure customers have lower churn probability
+Long-tenure customers are significantly more loyal
 
-🚀 Conclusion
+Early behavioral signals can help prevent churn
 
-This project demonstrates an end-to-end data analytics workflow, combining Python, SQL, and Power BI to deliver meaningful business insights. The findings can help businesses design targeted retention strategies and improve customer satisfaction.
+🚀 Final Takeaway
+
+This project demonstrates how data analytics can directly support business decisions. By combining Python, SQL, and Power BI, I transformed raw telecom data into meaningful insights that can help companies predict churn early, retain customers, and improve customer experience.
