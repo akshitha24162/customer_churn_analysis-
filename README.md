@@ -1,4 +1,5 @@
 📊 Telecom Customer Churn Analysis
+
 🔍 Why This Project?
 
 Customer churn is one of the biggest challenges in the telecom industry. Losing customers not only reduces revenue but also increases acquisition costs. Businesses often know that customers are leaving — but not why.
