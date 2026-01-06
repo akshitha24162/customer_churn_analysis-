@@ -49,6 +49,7 @@ Jupyter Notebook: Analysis and experimentation
 Git & GitHub: Version control and documentation
 
 🔄 End-to-End Workflow
+
 1️⃣ Data Cleaning & Preparation (Python)
 
 Handled missing and inconsistent values
